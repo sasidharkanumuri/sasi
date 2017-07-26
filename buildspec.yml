@@ -5,7 +5,7 @@ phases:
    - npm install time
    - aws cloudformation package --template-file samTemplate.yaml 
                                 --output-template-file NewSamTemplate.yaml
-								--s3-bucket sample-ci-cd-pipeline
+                                --s3-bucket sample-ci-cd-pipeline
 
 artifacts:
  type: zip
